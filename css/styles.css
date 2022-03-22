@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-size: 2rem;
+
+}
+
+html {	
+		font-size: 62.5%;
+}
+
+h1{ font-size: 4 rem; }
+h2{font-size: 3 rem}
+h3{font-size: 2 rem}
+
+.scale:hover{
+	transform: scale(1.8);
+	cursor: pointer;
+	transition: transform 3s;
+}
