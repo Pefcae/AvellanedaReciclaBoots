@@ -19,7 +19,7 @@
 <body>
 	
 	<!-- inicia nav-->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top">
 	  <div class="container-fluid">
 	  	<a class="navbar-brand" href="index.html">
       		<img src="img/logo2.png" alt="Logo Avellaneda Recicla" class="w-50">
@@ -78,6 +78,7 @@
 		    <span class="visually-hidden">Next</span>
 		  </button>
 		</div>
+
 		<section">
 			<h1 class="text-sm-center text-md-center text-lg-center">¿Qué es un Ecopunto?</h1>
 		</section>
@@ -85,42 +86,53 @@
 			<h3 class="text-sm-center text-md-center text-lg-center">Es la planta de clasificación de residuos reciclables. Trabajan, en todo el sistema, más de 200 recuperadores urbanos que tienen la tarea de recuperar, separar, enfardar y reciclar distintos tipos de materiales. Actualmente, se recuperan más de 100 toneladas por mes, lo que equivale a 4500 kilos diarios. Recuperadores urbanos trasladan desde distintos puntos de la Ciudad materiales así como también lo hace el camión encargado de la recolección diferenciada en los Barrios con Día Verde. Las Estaciones de Reciclado son también lugares de acopio de material reciclable que luego también es trasladado al ECO. <br><br> Allí descarga los reciclables, que mecánicamente se introducen en un trommel que desgarra las bolsas, el contenido se desplaza por una línea de separación, donde los operarios seleccionan por tipo de material cada residuo reciclable, disponiéndolos en distintas bateas. Por último, el material se prensa y enfarda, para su posterior reciclaje en otras plantas. Convirtiéndose en materia prima para nuevos productos.</h2>
 		</section>
 
-		<table class="table">
-		  <thead>
-		    <tr>
-		      <th scope="col">Barrio</th>
-		      <th scope="col">Nombre</th>
-		      <th scope="col">Dirección</th>
-		      <th scope="col">Mapa</th>
-		    </tr>
-		  </thead>
-		  <tbody>
-		    <tr>
-		      <th scope="row">Avellaneda</th>
-		      <td>Área X</td>
-		      <td>Colón y V. Sarsfield</td>
-		      <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1379.6470916082149!2d-58.36372057230534!3d-34.67055269273092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33349c6aa9989%3A0x117c2544a26c3979!2sAREA%20X!5e0!3m2!1ses!2sar!4v1644606166718!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
-		    </tr>
-		    <tr>
-		      <th scope="row">Gerli</th>
-		      <td>Plaza La Conquistadora </td>
-		      <td>Campichuelo y Basavilbaso</td>
-		      <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.4543696775286!2d-58.37034314852436!3d-34.693717969677955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a332d5cdb287a7%3A0xf03d991ec83a256d!2sPlaza%20La%20Conquistadora!5e0!3m2!1ses!2sar!4v1644606254455!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
-		    </tr>
-		    <tr>
-		      <th scope="row">Dock Sud</th>
-		      <td >Plaza del Centenario</td>
-		      <td>Alem y Vértiz</td>
-		      <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.9419684334666!2d-58.34835914852531!3d-34.656168467687735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33367ccf07a5b%3A0x39a8c7797a1ac87d!2sPlaza%20Del%20Centenario!5e0!3m2!1ses!2sar!4v1644606277823!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
-		    </tr>
-		     <tr>
-		      <th scope="row">Sarandí</th>
-		      <td>Plaza Pascual Romano </td>
-		      <td>Av. Belgrano y Supisiche</td>
-		      <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.731403309167!2d-58.35328241965896!3d-34.681162153352005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a333226a64342f%3A0xdf502f898d232398!2sPlaza%20Pascual%20Romano!5e0!3m2!1ses!2sar!4v1644606301890!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
-		    </tr>
-		  </tbody>
-		</table>
+		<section class="bg-light py-3 container-fluid">
+			  <div class="row">
+		 <article class="col-lg-2">
+			      
+		</article>
+
+	    <article class="col-lg-8 ps-3">
+			<table class="table">
+			  <thead>
+			    <tr>
+			      <th scope="col">Barrio</th>
+			      <th scope="col">Nombre</th>
+			      <th scope="col">Dirección</th>
+			      <th scope="col">Mapa</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <th scope="row">Avellaneda</th>
+			      <td>Área X</td>
+			      <td>Colón y V. Sarsfield</td>
+			      <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1379.6470916082149!2d-58.36372057230534!3d-34.67055269273092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33349c6aa9989%3A0x117c2544a26c3979!2sAREA%20X!5e0!3m2!1ses!2sar!4v1644606166718!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">Gerli</th>
+			      <td>Plaza La Conquistadora </td>
+			      <td>Campichuelo y Basavilbaso</td>
+			      <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.4543696775286!2d-58.37034314852436!3d-34.693717969677955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a332d5cdb287a7%3A0xf03d991ec83a256d!2sPlaza%20La%20Conquistadora!5e0!3m2!1ses!2sar!4v1644606254455!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">Dock Sud</th>
+			      <td >Plaza del Centenario</td>
+			      <td>Alem y Vértiz</td>
+			      <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.9419684334666!2d-58.34835914852531!3d-34.656168467687735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33367ccf07a5b%3A0x39a8c7797a1ac87d!2sPlaza%20Del%20Centenario!5e0!3m2!1ses!2sar!4v1644606277823!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
+			    </tr>
+			     <tr>
+			      <th scope="row">Sarandí</th>
+			      <td>Plaza Pascual Romano </td>
+			      <td>Av. Belgrano y Supisiche</td>
+			      <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.731403309167!2d-58.35328241965896!3d-34.681162153352005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a333226a64342f%3A0xdf502f898d232398!2sPlaza%20Pascual%20Romano!5e0!3m2!1ses!2sar!4v1644606301890!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
+			    </tr>
+			  </tbody>
+			</table>
+		</article>
+
+	    <article class="col-lg-2 ps-3">
+		</article>	    	
 
 	</main>
 
@@ -142,9 +154,12 @@
   					<article class="col-md-6">
 	  				<h2>Seguinos en nuestras redes</h2>
 					<br>
-						<a href="https://facebook.com" target="_blank">	<img src="img/facebook.png" alt="Seguinos en facebook" class="w-5" ></a>
-						<a href="https://twitter.com" target="_blank">  <img src="img/twitter.png" alt="Seguinos en twitter" class="w-5">	</a>
-						<a href="https://Instagram.com" target="_blank"> <img src="img/Instagram.png" alt="Seguinos en Instagram" class="w-5"> </a>
+						<a href="https://facebook.com" target="_blank">	
+						<img src="img/facebook.png" alt="Seguinos en facebook" class="w-5" ></a>
+						<a href="https://twitter.com" target="_blank">
+						<img src="img/twitter.png" alt="Seguinos en twitter" class="w-5"></a>
+						<a href="https://Instagram.com" target="_blank"> 
+						<img src="img/Instagram.png" alt="Seguinos en Instagram" class="w-5"> </a>
 					</article>
   				</div>
   			</div>

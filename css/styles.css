@@ -1,8 +1,6 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500&display=swap');
 
 * {
-	/*font-family: 'Montserrat', sans-serif;*/
 	font-family: 'Raleway', sans-serif;
 	padding: 0;
 	margin: 0;
@@ -10,10 +8,8 @@
 	font-size: 2rem;
 	background-color: white;
 	color: black;
-	/*font-weight: 500;*/
-    
-
 }
+
 
 html {	
 		font-size: 62.5%;
@@ -39,3 +35,177 @@ h3 {
 	transition: transform 3s;
 }
 
+.transform:hover{
+	transform: translateY(-10px);
+	cursor: pointer;
+}
+
+.textCenter{
+	text-align: center;
+}
+
+.textRight{
+	text-align: right;
+}
+
+.textLeft{
+	text-align: left;
+}
+
+.gridHome {
+		height: 30%;
+		width: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1 fr;
+		grid-template-areas: "area1 area1 area1"
+							  "area2 area3 area3"
+							  "area4 area4 area5"
+							  "area12 area12 area12"
+							  "area6 area7 area8"
+							  "area9 area10 area11";
+							  
+	}
+
+.gridProd {
+		height: 30%;
+		width: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1 fr;
+		grid-template-areas: "area1 area1 area1"
+							  "area2 area2 area3"
+							  "area4 area5 area5"
+							  ;
+							  
+	}
+
+
+.area-1{
+	grid-area: area1;
+}
+
+.area-2{
+	grid-area: area2;
+	
+}
+
+.area-3{
+	grid-area: area3;
+	
+}
+
+.area-4{
+	grid-area: area4;
+
+}
+
+.area-5{
+	grid-area: area5;
+}
+
+.area-6{
+	grid-area: area6;
+}
+
+.area-7{
+	grid-area: area7;
+}
+
+.area-8{
+	grid-area: area8;
+}
+
+.area-9{
+	grid-area: area9;
+}
+
+.area-10{
+	grid-area: area10;
+}
+
+.area-11{
+	grid-area: area11;
+}
+
+.area-12{
+	grid-area: area12;
+}
+
+/*Tablet*/
+@media screen and (max-width:1100px	){
+	.gridHome {
+		height: 30%;
+		width: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: auto;
+		grid-template-areas: "area1  area1"
+		 					  "area3 area3"
+		 					  "area2 area2"
+							  "area4 area4"
+							  "area5 area5"
+							  "area12 area12"
+							  "area6 area7"
+							  "area8 area9"
+							  "area10 area11";
+							  
+	}
+	
+	.gridProd {
+		height: 30%;
+		width: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: auto;
+		grid-template-areas: "area1  area1"
+		 					  "area3 area3"
+		 					  "area2 area2"
+							  "area4 area4"
+							  "area5 area5"
+							  ;
+							  
+	}
+
+
+
+}
+
+/*Mobile*/
+@media screen and (max-width:700px	){
+	.gridHome {
+		height: 30%;
+		width: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: auto;
+		grid-template-areas: "area1  area1"
+		 					  "area3 area3"
+		 					  "area2 area2"
+							  "area4 area4"
+							  "area5 area5"
+							  "area12 area12"
+							  "area6 area7"
+							  "area8 area9"
+							  "area10 area11";
+							  
+	}
+	
+	.gridProd {
+		height: 30%;
+		width: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: auto;
+		grid-template-areas: "area1  area1"
+		 					  "area3 area3"
+		 					  "area2 area2"
+							  "area4 area4"
+							  "area5 area5"
+							  ;
+							  
+	}
+
+
+
+}
