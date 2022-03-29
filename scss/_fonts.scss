@@ -12,15 +12,15 @@ $textSm:1rem;
 $d-flex:flex;
 
 h1 {
-		font-size: 6rem; 
+		font-size: $textXl; 
 		font-weight: 500; 
 }
 h2 {	
-		font-size: 3rem;
+		font-size: $textLg;
 		font-weight: 300; 
 }
 
 h3 {	
-		font-size: 2rem;
+		font-size: $textMd;
 		font-weight: 200; 
 	}
