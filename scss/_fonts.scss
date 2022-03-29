@@ -11,9 +11,9 @@ $textSm:1rem;
 
 $d-flex:flex;
 
-$sizeFont3 = 200;
-$sizeFont2 = $sizeFont3+100;
-$sizeFont1 = $sizeFont2 +200;
+$sizeFont3 : 200;
+$sizeFont2 : $sizeFont3 + 100;
+$sizeFont1 : $sizeFont2 + 200;
 
 h1 {
 		font-size: $textXl; 
