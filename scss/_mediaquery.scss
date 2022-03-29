@@ -1,0 +1,38 @@
+/*Mobile*/
+@media screen and (max-width:700px	){
+	.gridHome {
+		height: 30%;
+		width: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: auto;
+		grid-template-areas: "area1  area1"
+		 					  "area3 area3"
+		 					  "area2 area2"
+							  "area4 area4"
+							  "area5 area5"
+							  "area12 area12"
+							  "area6 area7"
+							  "area8 area9"
+							  "area10 area11";
+							  
+	}
+	
+	.gridProd {
+		height: 30%;
+		width: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: auto;
+		grid-template-areas: "area1  area1"
+		 					  "area3 area3"
+		 					  "area2 area2"
+							  "area4 area4"
+							  "area5 area5"
+							  ;
+							  
+	}
+
+
+
+}

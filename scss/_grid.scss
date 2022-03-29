@@ -1,0 +1,79 @@
+.gridHome {
+		height: 30%;
+		width: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1 fr;
+		grid-template-areas: "area1 area1 area1"
+							  "area2 area3 area3"
+							  "area4 area4 area5"
+							  "area12 area12 area12"
+							  "area6 area7 area8"
+							  "area9 area10 area11";
+							  
+	}
+
+.gridProd {
+		height: 30%;
+		width: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1 fr;
+		grid-template-areas: "area1 area1 area1"
+							  "area2 area2 area3"
+							  "area4 area5 area5"
+							  ;
+							  
+	}
+
+
+.area-1{
+	grid-area: area1;
+}
+
+.area-2{
+	grid-area: area2;
+	
+}
+
+.area-3{
+	grid-area: area3;
+	
+}
+
+.area-4{
+	grid-area: area4;
+
+}
+
+.area-5{
+	grid-area: area5;
+}
+
+.area-6{
+	grid-area: area6;
+}
+
+.area-7{
+	grid-area: area7;
+}
+
+.area-8{
+	grid-area: area8;
+}
+
+.area-9{
+	grid-area: area9;
+}
+
+.area-10{
+	grid-area: area10;
+}
+
+.area-11{
+	grid-area: area11;
+}
+
+.area-12{
+	grid-area: area12;
+}

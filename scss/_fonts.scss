@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500&display=swap');
+
+$fontMain:'Raleway', sans-serif;
+$fontSecondary:'Raleway', sans-serif;
+
+// variables para los textos
+$textXl:6rem;
+$textLg:3rem;
+$textMd:2rem;
+$textSm:1rem;
+
+$d-flex:flex;
+
+h1 {
+		font-size: 6rem; 
+		font-weight: 500; 
+}
+h2 {	
+		font-size: 3rem;
+		font-weight: 300; 
+}
+
+h3 {	
+		font-size: 2rem;
+		font-weight: 200; 
+	}
