@@ -11,16 +11,20 @@ $textSm:1rem;
 
 $d-flex:flex;
 
+$sizeFont3 = 200;
+$sizeFont2 = $sizeFont3+100;
+$sizeFont1 = $sizeFont2 +200;
+
 h1 {
 		font-size: $textXl; 
-		font-weight: 500; 
+		font-weight: $sizeFont1; 
 }
 h2 {	
 		font-size: $textLg;
-		font-weight: 300; 
+		font-weight: $sizeFont2; 
 }
 
 h3 {	
 		font-size: $textMd;
-		font-weight: 200; 
+		font-weight: $sizeFont3; 
 	}
