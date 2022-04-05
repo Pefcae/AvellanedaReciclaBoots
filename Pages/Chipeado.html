@@ -5,13 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		 <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<title>Avellaneda Recicla - Productos</title>
-	<link rel="icon" href="img/logo2.png">
-	<link rel="stylesheet" href="css/styles.css">
+	<title>Avellaneda Recicla - Chipeado</title>
+	<meta name="description" content="Encontrá los chipeados que ofrecemos en la comunidad de Avellaneda Recicla">
+	<meta name= "kewords" content="Avellaneda Recicla, Reciclado, Recicla, Reciclaje,Compostaje,  Chipeado">
+	<link rel="icon" href="../img/logo2.png">
+	<link rel="stylesheet" href="../css/styles.css">
 	
 	<!-- wow js -->
-	<link rel="stylesheet" href="css/animate.css">
-	<script src="js/wow.min.js"></script>
+	<link rel="stylesheet" href="../css/animate.css">
+	<script src="../js/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
@@ -19,22 +21,30 @@
 <body>
 	
 	<!-- inicia nav-->
-	<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top botonera">
 	  <div class="container-fluid">
-	  	<a class="navbar-brand" href="index.html">
-      		<img src="img/logo2.png" alt="Logo Avellaneda Recicla" class="w-50">
+	  	<a class="navbar-brand" href="../index.html">
+      		<img src="../img/logo2.png" alt="Logo Avellaneda Recicla" class="w-50">
     	</a>
 	     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
 	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-	        <li class="nav-item">       <a class="nav-link" aria-current="page" href="index.html">Home</a></li>
-	        <li class="nav-item">       <a class="nav-link" href="Nosotros.html">Nosotros</a> </li>  
-	        <li class="nav-item">       <a class="nav-link" href="Eventos.html">Eventos</a> </li>
-	        <li class="nav-item">       <a class="nav-link" href="Ubicacion.html">Ecopunto</a> </li>
-	        <li class="nav-item">       <a class="nav-link" href="Productos.html">Productos</a> </li>
-	        <li class="nav-item">       <a class="nav-link" href="Contacto.html">Contacto</a> </li>
+	        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+	        <li class="nav-item">       <a class="nav-link" aria-current="page" href="../index.html">Home</a></li>
+	        <li class="nav-item">       <a class="nav-link" href=".\Nosotros.html">Nosotros</a> </li>  
+	        <li class="nav-item">       <a class="nav-link" href=".\Eventos.html">Eventos</a> </li>
+	        <!--<li class="nav-item">       <a class="nav-link" href="Productos.html">Productos</a> </li>-->
+	        <li class="nav-item dropdown">
+         	 	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos	</a>
+          		<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            		<li><a class="dropdown-item" href=".\Semilla.html">Semillas</a></li>
+            		<li><a class="dropdown-item" href=".\Compostera.html">Composteras</a></li>
+            		<li><a class="dropdown-item" href=".\Chipeado.html">Chipeado</a></li>
+          		</ul>
+        	</li>
+        	<li class="nav-item">       <a class="nav-link" href=".\Ubicacion.html">Ecopunto</a> </li>
+        	<li class="nav-item">       <a class="nav-link" href=".\Contacto.html">Contacto</a> </li>
 	      </ul>
 	    </div>
 	  </div>
@@ -42,17 +52,16 @@
 	<!-- Fin nav-->
 
 	<main>
-
 		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img src="img/header.jpg" class="d-block w-100" alt="Avellaneda Recicla Header 1" height="350">
+		      <img src="../img/carousel/header_proceso_reciclado.jpg" class="d-block w-100" alt="Avellaneda Recicla Header 1" height="350">
 		    </div>
 		    <div class="carousel-item">
-		      <img src="img/header2.jpg" class="d-block w-100" alt="Avellaneda Recicla Header 2" height="350">
+		      <img src="../img/carousel/header_operario_reciclando.jpg" class="d-block w-100" alt="Avellaneda Recicla Header 2" height="350">
 		    </div>
 		    <div class="carousel-item">
-		      <img src="img/header3.jpg" class="d-block w-100" alt="Avellaneda Recicla Header 3" height="350">
+		      <img src="../img/carousel/header_cestos_Reciclado.jpg" class="d-block w-100" alt="Avellaneda Recicla Header 3" height="350">
 		    </div>
 		  </div>
 		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -73,7 +82,7 @@
 			<section class="gridProd py-3">
   				<div class="area-2"><h2 class="textCenter">Chipeado</h2>
 					<h3><br><br>El chipeado o "mulching", es el residuo de poda, triturado (ramas y hojas de árboles). Este "residuo" sirve como material orgánico seco para controlar la humedad del compost o incluso como capa cobertora en el relleno sanitario. También es una cubierta protectora del suelo. Podes pedir chipeado por este medio, por instagram o llamamndo al 08001226323.</h3></div>
-			<div class="area-3 transform textCenter"><img src="img/chipeado.jpd" alt="Compostaje Avellaneda" class="w-100"></div>
+			<div class="area-3 transform textCenter"><img src="../img/products/chipeado.jpd" alt="Compostaje Avellaneda" class="w-100"></div>
 
 			<div class="area-5"><h2 class="textCenter">Composteras</h2>
 					<br>
@@ -83,7 +92,7 @@
 					Esta compostera hace una buena combinación si tenemos un jardín en nuestro hogar o un huerto ecológico.</h3>
 			</div>
 
-			<div class="area-4 transform textCenter"><img src="img/compostera.jpg" alt="Compostaje Avellaneda" class="w-100"></div>
+			<div class="area-4 transform textCenter"><img src="../img/products/compostera.jpg" alt="Compostaje Avellaneda" class="w-100"></div>
 			</section>
 	</main>
 
@@ -105,11 +114,11 @@
 	  				<h2>Seguinos en nuestras redes</h2>
 					<br>
 						<a href="https://facebook.com" target="_blank">	
-						<img src="img/facebook.png" alt="Seguinos en facebook" class="w-5" ></a>
+						<img src="../img/Redes/facebook.png" alt="Seguinos en facebook" class="w-5" ></a>
 						<a href="https://twitter.com" target="_blank">
-						<img src="img/twitter.png" alt="Seguinos en twitter" class="w-5"></a>
+						<img src="../img/Redes/twitter.png" alt="Seguinos en twitter" class="w-5"></a>
 						<a href="https://Instagram.com" target="_blank"> 
-						<img src="img/Instagram.png" alt="Seguinos en Instagram" class="w-5"> </a>
+						<img src="../img/Redes/Instagram.png" alt="Seguinos en Instagram" class="w-5"> </a>
 					</article>
   				</div>
   			</div>

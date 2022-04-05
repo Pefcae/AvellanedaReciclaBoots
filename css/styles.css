@@ -5,7 +5,7 @@
   margin: 0;
   text-decoration: none;
   font-size: 2rem;
-  background-color: white;
+  /*background-color: $fondo;*/
   color: black; }
 
 html {
@@ -22,6 +22,66 @@ h2 {
 h3 {
   font-size: 2rem;
   font-weight: 200; }
+
+h4 {
+  font-size: 5rem;
+  font-weight: 200;
+  color: white; }
+  
+p {
+  font-size: 2rem;
+  font-weight: 200; }
+
+/* From cssbuttons.io by @adamgiebl */
+.cssbuttons-io-button {
+  display: flex;
+  align-items: center;
+  /*font-family: inherit;*/
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, #14a73e 0%, #66f771 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  text-decoration: none; }
+
+.cssbuttons-io-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98; }
+
+.cssbuttons-io-button:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98; }
+
+.cssbuttons-io-butto a {
+  text-decoration: none; }
+
+.botonera {
+  background-color: white; }
+
+div hr {
+  width: 100%;
+  background: linear-gradient(0deg, #14a73e 0%, #66f771 100%); }
+
+.contenedorPNF {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+
+.texto-encima {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white; }
+
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%); }
 
 .scale:hover {
   transform: scale(1.8);
@@ -47,7 +107,12 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1 fr;
-  grid-template-areas: "area1 area1 area1" "area2 area3 area3" "area4 area4 area5" "area12 area12 area12" "area6 area7 area8" "area9 area10 area11"; }
+  grid-template-areas: "area1 area1 area1"
+ "area2 area3 area3"
+ "area4 area4 area5"
+ "area12 area12 area12"
+ "area6 area7 area8"
+ "area9 area10 area11"; }
 
 .gridProd {
   height: 30%;
@@ -55,7 +120,9 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1 fr;
-  grid-template-areas: "area1 area1 area1" "area2 area2 area3" "area4 area5 area5"; }
+  grid-template-areas: "area1 area1 area1"
+ "area2 area2 area3"
+ "area4 area5 area5"; }
 
 .area-1 {
   grid-area: area1; }
@@ -101,11 +168,23 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "area1  area1" "area3 area3" "area2 area2" "area4 area4" "area5 area5" "area12 area12" "area6 area7" "area8 area9" "area10 area11"; }
+    grid-template-areas: "area1  area1"
+ "area3 area3"
+ "area2 area2"
+ "area4 area4"
+ "area5 area5"
+ "area12 area12"
+ "area6 area7"
+ "area8 area9"
+ "area10 area11"; }
   .gridProd {
     height: 30%;
     width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "area1  area1" "area3 area3" "area2 area2" "area4 area4" "area5 area5"; } }
+    grid-template-areas: "area1  area1"
+ "area3 area3"
+ "area2 area2"
+ "area4 area4"
+ "area5 area5"; } }

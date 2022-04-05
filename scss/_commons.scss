@@ -1,10 +1,25 @@
 //definimos variables
 
+// map
+$paleta: (
+    'uno': black,
+    'dos': grey,
+    'tres':white,
+    'cuatro':red,
+    'cinco': #14a73e98,
+    'seis': rgba(20,167,62,1),
+    'siete':rgba(102,247,113,1),
+    );
+
+
+
+
 //colores
-$mainColor:black;
-$secondaryColor:grey;
-$fondo:white;
-$keyColor:red;
+$mainColor:map-get($map:$paleta,$key:'uno');;
+$secondaryColor:map-get($map:$paleta,$key:'dos');;
+$fondo:map-get($map:$paleta,$key:'tres');;
+$keyColor:map-get($map:$paleta,$key:'cuatro');;
+
 
 //sizing
 $w-100:100%;

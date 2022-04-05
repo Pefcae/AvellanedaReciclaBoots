@@ -4,6 +4,7 @@ $fontMain:'Raleway', sans-serif;
 $fontSecondary:'Raleway', sans-serif;
 
 // variables para los textos
+$textXXXl:5rem;
 $textXl:6rem;
 $textLg:3rem;
 $textMd:2rem;
@@ -27,4 +28,16 @@ h2 {
 h3 {	
 		font-size: $textMd;
 		font-weight: $sizeFont3; 
+	}
+
+p {	
+		font-size: $textMd;
+		font-weight: $sizeFont3; 
+	}
+
+
+h4 {	
+		font-size: $textXXXl;
+		font-weight: $sizeFont3; 
+		color:white;
 	}
