@@ -27,13 +27,13 @@ h4 {
   font-size: 5rem;
   font-weight: 200;
   color: white; }
-  
+
 p {
   font-size: 2rem;
   font-weight: 200; }
 
 /* From cssbuttons.io by @adamgiebl */
-.cssbuttons-io-button {
+.cssbuttons-io-button, .cssbuttons-io-button-rounded {
   display: flex;
   align-items: center;
   /*font-family: inherit;*/
@@ -46,17 +46,18 @@ p {
   border: none;
   box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
   letter-spacing: 0.05em;
-  border-radius: 20em;
   text-decoration: none; }
+  .cssbuttons-io-button a, .cssbuttons-io-button-rounded a {
+    text-decoration: none; }
 
-.cssbuttons-io-button:hover {
+.cssbuttons-io-button-rounded {
+  border-radius: 15px; }
+
+.cssbuttons-io-button:hover, .cssbuttons-io-button-rounded:hover {
   box-shadow: 0 0.5em 1.5em -0.5em #14a73e98; }
 
-.cssbuttons-io-button:active {
+.cssbuttons-io-button:active, .cssbuttons-io-button-rounded:active {
   box-shadow: 0 0.3em 1em -0.5em #14a73e98; }
-
-.cssbuttons-io-butto a {
-  text-decoration: none; }
 
 .botonera {
   background-color: white; }
@@ -107,12 +108,7 @@ div hr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1 fr;
-  grid-template-areas: "area1 area1 area1"
- "area2 area3 area3"
- "area4 area4 area5"
- "area12 area12 area12"
- "area6 area7 area8"
- "area9 area10 area11"; }
+  grid-template-areas: "area1 area1 area1" "area2 area3 area3" "area4 area4 area5" "area12 area12 area12" "area6 area7 area8" "area9 area10 area11"; }
 
 .gridProd {
   height: 30%;
@@ -120,9 +116,7 @@ div hr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1 fr;
-  grid-template-areas: "area1 area1 area1"
- "area2 area2 area3"
- "area4 area5 area5"; }
+  grid-template-areas: "area1 area1 area1" "area2 area2 area3" "area4 area5 area5"; }
 
 .area-1 {
   grid-area: area1; }
@@ -168,23 +162,11 @@ div hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "area1  area1"
- "area3 area3"
- "area2 area2"
- "area4 area4"
- "area5 area5"
- "area12 area12"
- "area6 area7"
- "area8 area9"
- "area10 area11"; }
+    grid-template-areas: "area1  area1" "area3 area3" "area2 area2" "area4 area4" "area5 area5" "area12 area12" "area6 area7" "area8 area9" "area10 area11"; }
   .gridProd {
     height: 30%;
     width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "area1  area1"
- "area3 area3"
- "area2 area2"
- "area4 area4"
- "area5 area5"; } }
+    grid-template-areas: "area1  area1" "area3 area3" "area2 area2" "area4 area4" "area5 area5"; } }

@@ -12,10 +12,20 @@
  border: none;
  box-shadow: 0 0.7em 1.5em -0.5em map-get($map:$paleta,$key:'cinco');
  letter-spacing: 0.05em;
- border-radius: 20em;
  text-decoration: none;
+ 
+
+    a {
+     text-decoration: none;
+}
 }
 
+// extends
+
+.cssbuttons-io-button-rounded{
+    @extend .cssbuttons-io-button;
+    border-radius: 15px;
+}
 
 .cssbuttons-io-button:hover {
  box-shadow: 0 0.5em 1.5em -0.5em  map-get($map:$paleta,$key:'cinco');;
@@ -25,9 +35,6 @@
  box-shadow: 0 0.3em 1em -0.5em  map-get($map:$paleta,$key:'cinco');;
 }
 
-.cssbuttons-io-butto a {
-     text-decoration: none;
-}
 
 .botonera {
     background-color: $fondo;
