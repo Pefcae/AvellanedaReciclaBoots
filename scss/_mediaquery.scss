@@ -33,6 +33,10 @@
 							  
 	}
 
-
+h1 {
+		//font-size: $textXl; 
+		//font-weight: $sizeFont1; 
+		@include texto($textl, $sizeFont1);
+}
 
 }

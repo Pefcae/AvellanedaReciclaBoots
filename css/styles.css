@@ -187,4 +187,7 @@ div hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "area1  area1" "area3 area3" "area2 area2" "area4 area4" "area5 area5"; } }
+    grid-template-areas: "area1  area1" "area3 area3" "area2 area2" "area4 area4" "area5 area5"; }
+  h1 {
+    font-size: 4rem;
+    font-weight: 500; } }
