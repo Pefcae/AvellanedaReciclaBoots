@@ -2,8 +2,9 @@
 		height: 30%;
 		width: auto;
 		display: grid;
+		column-gap: 40px;
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr 1 fr;
+		grid-template-rows: 1fr 1fr 1fr 1 ;
 		grid-template-areas: "area1 area1 area1"
 							  "area2 area3 area3"
 							  "area4 area4 area5"
@@ -17,8 +18,9 @@
 		height: 30%;
 		width: auto;
 		display: grid;
+		column-gap: 40px;
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr 1 fr;
+		grid-template-rows: 1fr 1fr 1fr 1 ;
 		grid-template-areas: "area1 area1 area1"
 							  "area2 area2 area3"
 							  "area4 area5 area5"
