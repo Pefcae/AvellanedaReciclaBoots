@@ -121,6 +121,7 @@ div hr {
   width: auto;
   display: grid;
   column-gap: 40px;
+  row-gap: 3em;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1;
   grid-template-areas: "area1 area1 area1" "area2 area3 area3" "area4 area4 area5" "area12 area12 area12" "area6 area7 area8" "area9 area10 area11"; }
@@ -130,6 +131,7 @@ div hr {
   width: auto;
   display: grid;
   column-gap: 40px;
+  row-gap: 1em;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1;
   grid-template-areas: "area1 area1 area1" "area2 area2 area3" "area4 area5 area5"; }
