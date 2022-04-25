@@ -18,33 +18,24 @@ $sizeFont2 : $sizeFont3 + 100;
 $sizeFont1 : $sizeFont2 + 200;
 
 h1 {
-		//font-size: $textXl; 
-		//font-weight: $sizeFont1; 
+		
 		@include texto($textXl, $sizeFont1);
 }
 h2 {	
-		//font-size: $textLg;
-		//font-weight: $sizeFont2; 
 		@include texto($textLg, $sizeFont2);
 
 }
 
 h3 {	
-		//font-size: $textMd;
-		//font-weight: $sizeFont3; 
 		@include texto($textMd, $sizeFont3);
 	}
 
 h4 {	
-		//font-size: $textXXXl;
-		//font-weight: $sizeFont3; 
 		@include texto($textXXXl, $sizeFont3);
 		color:white;
 	}
 	
 p {	
-		//font-size: $textMd;
-		//font-weight: $sizeFont3; 
 		@include texto($textMd, $sizeFont3);
 		margin:10px;
 	}
